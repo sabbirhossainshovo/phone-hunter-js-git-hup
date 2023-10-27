@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> hant 3</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <header>
+      <h1 class="text-center my-5">Welcome To My Phone Hunter</h1>
+    </header>
+
+
+    <main>
+      <!-- start search section  -->
+      <section>
+        <div class="mb-3 d-flex justify-content-center">         
+          <input type="email" class="form-control w-50" id="input-text" placeholder="Search Your Phone">
+          <button id="search-btn" class="btn btn-primary ms-3">search</button>
+        </div>
+      </section>
+       <!-- end search section  -->
+
+
+      <!-- start card dection  -->
+      <section class="container">
+        <div id="div-container" class="row row-cols-1 row-cols-md-3 g-4">
+        </div>
+      </section>
+      <!-- end card dection  -->
+
+      <!-- start alart taitel  -->
+
+      <section class="container">
+        <h2 id="text-alart" class="text-danger mt-5 ms-5 d-none">It's wrong, rewrite it</h2>
+      </section>
+
+      <!-- end alart taitel  -->
+
+
+      <!-- start loas section  -->
+      <section id="lodding" style="height: 400px;" class=" d-flex justify-content-center align-items-center d-none">
+        <div class="spinner-grow" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+      </section>
+      <!-- end loas section  -->
+
+      <section>
+        <div id="show-more-btn" class="text-center mt-5 d-none">
+          <button id="bitn-show-all" class="btn btn-primary ">Show More</button>
+        </div>
+      </section>
+
+    </main>
+    
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
